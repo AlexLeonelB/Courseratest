@@ -13,6 +13,33 @@
                 color: chocolate;
                 font-size: 36px;
             }
+            div,.blue {
+                color: blue;
+            }
+            #span {
+                color: green;
+            }
+            ol,ul {
+                font-style: italic;
+            }
+            a:link.instagram, a:visited.instagram {
+                
+                text-decoration: none;
+                background-color: white;
+                border: 2px solid black;
+                color: black;
+                display:block;
+                width: 200px;
+                text-align: center;
+                margin-bottom: 5px;
+                
+            }
+            a:hover.instagram, a:active.instagram {
+                background-color:black;
+                color: white;
+                cursor: pointer;
+                
+            }
 
         </style>
     </head>
@@ -20,7 +47,7 @@
         <div><h1 id="titulo">ALEX Probando cosas</h1></div>
         <div>DIV 1: CARGA PRIMERO</div>
         <div>DIV 2: CARGA SEGUNDO</div>
-        <span>SPAN 1: carga tercero</span>
+        <span id="span">SPAN 1: carga tercero</span>
         <div>
             DIV 3: carga despues
             <span>SPAN esta en bloque y carga aca</span>
@@ -67,9 +94,9 @@
         </a>
         <h1>External Links - se añade target= "_blank"</h1>
         <p>Para abrir una pagina en nueva pestaña y no en tu pagina
-            <a href="https://www.instagram.com/alex.plays.bass/" target="_blank" title="MY INSTAGRAM">ACA ESTA MI INSTAGRAM</a>
+            <a class="instagram" href="https://www.instagram.com/alex.plays.bass/" target="_blank" title="MY INSTAGRAM">ACA ESTA MI INSTAGRAM</a>
         </p>
-        <h1>LINKS to section</h1>
+        <h1 class="blue">LINKS to section</h1>
         <p>Tenes que poner id="elnombre" y en el link href="#elnombre"</p>
         <h2><a href="#titulo">Este te lleva al titulo</a></h2>
         <h1>IMAGEN EN CARPETA LOCAL</h1>

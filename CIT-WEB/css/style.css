@@ -1,0 +1,70 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-image: url(../images/CIT-LOGO.jpg) ;
+    color:whitesmoke;
+    background-color: black;
+    
+    
+}
+
+header {
+    background-color: rgb(25, 18, 114);
+    
+}
+
+.navbar {
+    font-size: 180%;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar-text {
+    color: rgb(223, 195, 126);
+    text-shadow: 2px 2px 2px gray;
+}
+
+.nav-item {
+    text-align: center;
+    align-items: center;
+    text-decoration:none;
+}
+.nav-link{
+
+    color: rgb(223, 195, 126);
+    text-shadow: 2px 2px 2px gray;
+}
+.nav-link:visited{
+    color: rgb(223, 195, 126);
+    text-shadow: 2px 2px 2px gray;
+}
+.nav-link:hover {
+    color: honeydew;
+    background-color: indigo;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px darkgrey;
+}
+.navbar-nav {
+    text-align: center;
+    align-items: center;
+}
+
+#content {
+    font-size: 120%;
+    background-color: rgba(169, 169, 169, 0.253);
+    color: white;
+    width: 30%;
+    height: 500px;
+    border-radius: 20px;
+}

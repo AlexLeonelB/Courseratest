@@ -10,9 +10,9 @@ body {
     padding: 0;
     background-attachment:fixed;
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size: 50%;
     background-position:center;
-    background-image: url(../images/CIT-LOGO.jpg) ;
+    background-image: url(../images/CIT-LOGO-SOLO.png) ;
     color:whitesmoke;
     background-color: black;
     
@@ -20,19 +20,21 @@ body {
 }
 
 header {
-    background-color: rgb(25, 18, 114);
+    background-color: gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     
 }
 
 .navbar {
-    font-size: 180%;
+    font-size: 160%;
     text-align: center;
     align-items: center;
 }
 
 .navbar-text {
-    color: rgb(223, 195, 126);
-    text-shadow: 2px 2px 2px gray;
+    color: rgb(236, 214, 84);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
 }
 
 .nav-item {
@@ -42,12 +44,12 @@ header {
 }
 .nav-link{
 
-    color: rgb(223, 195, 126);
-    text-shadow: 2px 2px 2px gray;
+    color: rgb(236, 214, 84);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
 }
 .nav-link:visited{
-    color: rgb(223, 195, 126);
-    text-shadow: 2px 2px 2px gray;
+    color: rgb(236, 214, 84);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
 }
 .nav-link:hover {
     color: honeydew;
@@ -67,4 +69,8 @@ header {
     width: 30%;
     height: 500px;
     border-radius: 20px;
+}
+
+#nav-mobile {
+
 }

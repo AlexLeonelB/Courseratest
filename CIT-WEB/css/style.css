@@ -12,7 +12,7 @@ body {
     background-repeat:no-repeat;
     background-size: 50%;
     background-position:center;
-    background-image: url(../images/CIT-LOGO-SOLO.png) ;
+    background-image: url(../images/CIT-LOGO-BN-FONDO.png) ;
     color:whitesmoke;
     background-color: black;
     
@@ -65,10 +65,11 @@ header {
 #content {
     font-size: 120%;
     background-color: rgba(169, 169, 169, 0.253);
+    background-clip:content-box;
+    padding: 1%;
     color: white;
-    width: 30%;
     height: 500px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 #nav-mobile {

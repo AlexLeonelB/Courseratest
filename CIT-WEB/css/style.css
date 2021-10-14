@@ -20,14 +20,16 @@ body {
 }
 
 header {
+    padding: 0px;
     background-color: gray;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-sizing: border-box;
     
 }
 
 .navbar {
-    font-size: 160%;
+    font-size: 150%;
     text-align: center;
     align-items: center;
 }
@@ -41,6 +43,7 @@ header {
     text-align: center;
     align-items: center;
     text-decoration:none;
+    margin: 0px;
 }
 .nav-link{
 
@@ -86,7 +89,6 @@ header {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-right: 0px;
-    padding: 2px;
     width: 48%;
     height: 50%;
     text-shadow:black 2px 2px 2px;
@@ -99,7 +101,6 @@ header {
     margin-left: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 2px;
     width: 48%;
     height: 50%;
     text-shadow:black 2px 2px 2px;
